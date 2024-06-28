@@ -4,7 +4,7 @@ import Navbar from "../Pages/Navbar";
 
 const Root = () => {
     return (
-        <div >
+        <div className="bg-gradient-to-r from-violet-300 to-red-200 pb-72">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

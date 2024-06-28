@@ -1,15 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLinks = <>
-    <li><NavLink to={'/'}>Home</NavLink></li>
+    <li className="text-orange-700 font-semibold"><NavLink to={'/'}>Home</NavLink></li>
    
-    <li><NavLink to={'/about'}>About</NavLink></li>
+    <li className="text-orange-700 font-semibold"><NavLink to={'/about'}>About</NavLink></li>
   
    
     </>
     return (
-        <div className="navbar max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto">
+            <div className="navbar ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,16 +33,18 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Bandrum Music</a>
+                <a className="btn btn-ghost text-3xl font-bold text-amber-500">Bandrum Music</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {navLinks}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Login</a>
+            <div className="navbar-end gap-2">
+               <Link to={'/register'} className="btn bg-gradient-to-r from-red-300 to-violet-200 text-orange-600">Register</Link>
+                <Link to={'/login'} className="btn bg-gradient-to-r from-violet-200 to-red-300 text-orange-600">Login</Link>
             </div>
+        </div>
         </div>
     );
 };
