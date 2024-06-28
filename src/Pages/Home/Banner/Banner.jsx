@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Banner.css'
-import Navbar from '../../Navbar';
+
+
 
 
 const Banner = () => {
@@ -23,14 +24,17 @@ const Banner = () => {
   };
 
   return (
-    <div className="slider">
+    <div >
       
-    <button onClick={prevSlide} className="left-arrow font-extrabold">{"<"}</button>
-    <div className="slider-content">
-      <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
+      <div className="slider ">
+      
+      <button onClick={prevSlide} className="left-arrow font-extrabold">{"<"}</button>
+      <div className="slider-content">
+        <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
+      </div>
+      <button onClick={nextSlide} className="right-arrow font-extrabold">{">"}</button>
     </div>
-    <button onClick={nextSlide} className="right-arrow font-extrabold">{">"}</button>
-  </div>
+    </div>
   );
 };
 

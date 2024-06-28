@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "Event Planning",
+      "image": "https://freeimage.host/i/d3mETQt",
+      "price": 500.00,
+      "shortDescription": "Comprehensive event planning services to ensure your music event runs smoothly.",
+      "fullDescription": "Our event planning services cover everything from initial concept development to final execution. We work with you to create a detailed plan, coordinate with vendors, manage schedules, and oversee the entire event to ensure everything goes off without a hitch."
+    },
+    {
+      "id": 2,
+      "name": "Venue Booking",
+      "image": "https://freeimage.host/i/d3mV1uR",
+      "price": 300.00,
+      "shortDescription": "Find and book the perfect venue for your music event, tailored to your needs.",
+      "fullDescription": "Our venue booking service helps you find the ideal location for your event. We take into consideration the size, location, and amenities of potential venues to ensure they meet your specific requirements. We also handle all the negotiations and booking arrangements."
+    },
+    {
+      "id": 3,
+      "name": "Artist Management",
+      "image": "https://freeimage.host/i/d3mMLQI",
+      "price": 400.00,
+      "shortDescription": "Professional artist management services to handle all your performer needs.",
+      "fullDescription": "Our artist management services include booking artists, negotiating contracts, and managing logistics for their performances. We ensure that all artist requirements are met and that they have everything they need for a successful performance."
+    },
+    {
+      "id": 4,
+      "name": "Sound and Lighting",
+      "image": "https://freeimage.host/i/d3mWjWB",
+      "price": 700.00,
+      "shortDescription": "Top-notch sound and lighting services to create the perfect atmosphere.",
+      "fullDescription": "Our sound and lighting services provide high-quality audio and visual equipment to enhance your event. We offer a range of options to suit different types of events and work with experienced technicians to ensure everything runs smoothly."
+    },
+    {
+      "id": 5,
+      "name": "Catering Services",
+      "image": "https://freeimage.host/i/d3mXf5b",
+      "price": 350.00,
+      "shortDescription": "Delicious and customizable catering options to satisfy all your guests.",
+      "fullDescription": "Our catering services offer a variety of menu options to suit all tastes and dietary requirements. From finger foods to full-course meals, we provide delicious, high-quality food that will impress your guests. We also handle all aspects of service, from setup to cleanup."
+    },
+    {
+      "id": 6,
+      "name": "Ticketing Solutions",
+      "image": "https://freeimage.host/i/d3mhvwv",
+      "price": 200.00,
+      "shortDescription": "Efficient ticketing solutions to manage sales and entry for your event.",
+      "fullDescription": "Our ticketing solutions offer an easy and efficient way to manage ticket sales and event entry. We provide online and offline ticketing options, handle payment processing, and offer customer support to ensure a smooth experience for your attendees."
+    },
+    {
+      "id": 7,
+      "name": "Marketing and Promotion",
+      "image": "https://freeimage.host/i/d3mjkg9",
+      "price": 450.00,
+      "shortDescription": "Comprehensive marketing and promotional services to boost your event's visibility.",
+      "fullDescription": "Our marketing and promotion services help you reach a wider audience and increase ticket sales. We create customized marketing plans, manage social media campaigns, design promotional materials, and coordinate with media outlets to maximize your event's exposure."
+    },
+    {
+      "id": 8,
+      "name": "Security Services",
+      "image": "https://freeimage.host/i/d3m8ohu",
+      "price": 500.00,
+      "shortDescription": "Professional security services to ensure the safety and smooth running of your event.",
+      "fullDescription": "Our security services provide trained professionals to handle all aspects of event security. We conduct risk assessments, create security plans, and provide on-site personnel to ensure the safety of all attendees and the smooth running of your event."
+    }
+   
+  ]
+  
