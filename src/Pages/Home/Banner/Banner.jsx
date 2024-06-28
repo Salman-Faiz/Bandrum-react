@@ -6,8 +6,8 @@ import './Banner.css'
 
 const Banner = () => {
   const images = [
-    "https://iili.io/d3bdcfR.jpg",
     "https://iili.io/d3bdYiv.jpg",
+    "https://iili.io/d3bdcfR.jpg",
     "https://iili.io/d3bowTQ.jpg"
   ];
 
